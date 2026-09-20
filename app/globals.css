@@ -316,3 +316,114 @@ a { color: inherit; text-decoration: none; }
   margin-top: 34px;
 }
 .detail-actions .underlined-link { margin-top: 0; }
+
+
+/* Standalone rebuilt pages */
+.standalone-content {
+  display: grid;
+  gap: 8%;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, .7fr);
+  padding: 90px 10vw 120px;
+}
+.standalone-main > h2 {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  margin: 54px 0 18px;
+}
+.standalone-main > h2:first-child { margin-top: 0; }
+.standalone-main > p {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin: 0 0 22px;
+  max-width: 760px;
+}
+.standalone-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: var(--line);
+}
+.standalone-grid article {
+  background: var(--paper);
+  padding: 34px;
+}
+.standalone-grid article h2 {
+  font-size: 1.6rem;
+  line-height: 1.1;
+  margin: 16px 0 12px;
+}
+.standalone-grid article p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+.impact-page-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: var(--line);
+  margin-bottom: 70px;
+}
+.impact-page-grid article {
+  background: var(--paper);
+  padding: 34px;
+}
+.impact-page-grid strong {
+  display: block;
+  font-family: Fraunces, serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  letter-spacing: -.06em;
+}
+.impact-page-grid h2 {
+  font-size: 1.3rem;
+  margin: 12px 0;
+}
+.impact-page-grid p {
+  color: var(--muted);
+  margin: 0;
+}
+.state-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 30px;
+}
+.state-grid span {
+  border: 1px solid var(--line);
+  padding: 14px 16px;
+}
+.timeline-list {
+  border-top: 1px solid var(--line);
+}
+.timeline-list article {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 110px 1fr;
+  border-bottom: 1px solid var(--line);
+  padding: 26px 0;
+}
+.timeline-list strong {
+  color: var(--red);
+  font-family: 'DM Mono', monospace;
+}
+.timeline-list p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .standalone-content {
+    display: block;
+    padding: 65px 6vw 90px;
+  }
+  .standalone-content .inner-links { margin-top: 55px; }
+  .standalone-grid,
+  .impact-page-grid,
+  .state-grid {
+    grid-template-columns: 1fr;
+  }
+  .timeline-list article {
+    gap: 12px;
+    grid-template-columns: 1fr;
+  }
+}
