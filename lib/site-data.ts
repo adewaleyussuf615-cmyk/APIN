@@ -124,6 +124,56 @@ export const publications: ContentItem[] = [
     sourceUrl: "https://apin.org.ng/publications/",
   },
   {
+    slug: "apin-mini-projects",
+    title: "APIN Public Health Initiatives Mini Projects",
+    excerpt: "A collection of implementation mini-projects documenting practical innovations and programme learning across APIN-supported work.",
+    category: "Project report",
+    sourceUrl: "https://apin.org.ng/icares-project-reports/",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2023/07/Formatted_Mini-Projects-CORRECTED.pdf",
+    body: [
+      "This resource compiles APIN implementation mini-projects and practical lessons from programme delivery.",
+      "It is part of APIN's iCARES project-report library and supports knowledge sharing around applied public-health innovation."
+    ],
+  },
+  {
+    slug: "benue-hiv-program-story",
+    title: "Turning the Tide of the HIV Epidemic and Saving Lives in Benue State",
+    excerpt: "A programme story documenting HIV implementation experience and outcomes in Benue State.",
+    category: "Project report",
+    sourceUrl: "https://apin.org.ng/icares-project-reports/",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2023/07/Formated_Benue-State-HIV-Program-Story.pdf",
+    body: [
+      "This project report documents implementation experience from APIN's HIV programme in Benue State.",
+      "It is part of the iCARES project-report archive and is intended to support learning, accountability and programme improvement."
+    ],
+  },
+  {
+    slug: "apin-news-q1-2022",
+    title: "APIN News — January to March 2022",
+    excerpt: "A quarterly APIN newsletter covering programme activities, staff stories, partnerships and public-health updates.",
+    date: "January 2022",
+    category: "Newsletter",
+    sourceUrl: "https://apin.org.ng/newsletter/",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2022/07/APIN-News-Q1-2022-Edition-Final-3.pdf",
+    body: [
+      "APIN News is the organisation's quarterly newsletter, sharing programme highlights, public-health activities, partnerships and organisational updates.",
+      "This edition covers the first quarter of 2022."
+    ],
+  },
+  {
+    slug: "apin-news-q4-2021",
+    title: "APIN News — October to December 2021",
+    excerpt: "A quarterly newsletter featuring programme stories and implementation updates from late 2021.",
+    date: "October–December 2021",
+    category: "Newsletter",
+    sourceUrl: "https://apin.org.ng/newsletter/",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2022/07/APIN-News-2021-Q4-Edition-_Compressed.pdf",
+    body: [
+      "This APIN News edition includes programme stories and implementation updates from the fourth quarter of 2021.",
+      "The newsletter also documents work across nutrition, OVC programming, HIV services and organisational activities."
+    ],
+  },
+  {
     slug: "clinical-pharmacy-training-manual",
     title: "Clinical Pharmacy Training Manual for HIV Medicine",
     excerpt: "A practical training resource for pharmacy professionals supporting HIV medicine.",
@@ -288,7 +338,12 @@ export const successStories: ContentItem[] = [
     excerpt: "A systems-focused response to persistent infection prevention and control implementation gaps across supported facilities.",
     date: "September 17, 2024",
     category: "Health systems",
-    sourceUrl: "https://apin.org.ng/apin-hosts-3rd-national-clinical-mentorship-programme-retreat/?page_id=853",
+    sourceUrl: "https://apin.org.ng/strengthening-national-governance-and-oversight-of-infection-prevention-and-control-implementation-across-cdc-supported-sites/",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2025/04/IPC-Project-Summary-One-Pager-1.pdf",
+    body: [
+      "This project supports infection prevention and control implementation at facility level while strengthening national coordination for a more resilient health system.",
+      "The work addresses healthcare-associated infections and antimicrobial resistance through governance, workforce, information and systems-strengthening approaches."
+    ],
   },
   {
     slug: "addressing-malnutrition-ovc",
@@ -297,6 +352,11 @@ export const successStories: ContentItem[] = [
     date: "August 15, 2024",
     category: "Nutrition",
     sourceUrl: "https://apin.org.ng/apin-hosts-3rd-national-clinical-mentorship-programme-retreat/?page_id=853",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2022/07/APIN-News-2021-Q4-Edition-_Compressed.pdf",
+    body: [
+      "APIN's OVC programme addresses the health, nutritional, psychosocial and economic needs of HIV-affected children and households.",
+      "The story documents nutrition support for a child and caregiver linked to HIV treatment and wider household assistance through community-based partners."
+    ],
   },
   {
     slug: "community-congregational-pmtct",
