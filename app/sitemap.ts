@@ -20,6 +20,7 @@ const staticRoutes = [
   "/careers",
   "/contact",
   "/accountability",
+  "/search",
 ];
 
 const dynamicRoutes = [
