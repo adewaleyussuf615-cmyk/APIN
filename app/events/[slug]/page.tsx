@@ -1,0 +1,3 @@
+import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { events, getBySlug } from "@/lib/site-data";
+export function generateStaticParams(){ return events.map(({slug})=>({slug})); }
+export default function Page({params}:{params:{slug:string}}){ const item=getBySlug(events,params.slug); if(!item) notFound(); return <DetailPage item={item} backHref="/events" backLabel="Back to events" />; }
