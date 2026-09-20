@@ -70,7 +70,7 @@ export const newsItems: ContentItem[] = [
     excerpt: "APIN recognised women across laboratories, clinics, communities and leadership roles who continue to advance health equity.",
     date: "March 9, 2026",
     category: "People",
-    sourceUrl: "https://apin.org.ng/news/",
+    sourceUrl: "https://apin.org.ng/celebrating-the-women-of-apin-on-international-womens-day/",
     body: [
       "APIN used International Women's Day to recognise women working across laboratories, clinics, communities, programme teams and leadership roles.",
       "The organisation highlighted women's contributions to health equity, service delivery and public-health leadership."
@@ -82,7 +82,8 @@ export const newsItems: ContentItem[] = [
     excerpt: "A high-level engagement focused on stronger government leadership, aligned partnerships and better use of data.",
     date: "February 25, 2026",
     category: "Partnerships",
-    sourceUrl: "https://apin.org.ng/news/",
+    image: "https://apin.org.ng/wp-content/uploads/2026/03/ssa5-1.jpg",
+    sourceUrl: "https://apin.org.ng/apin-strengthens-federal-engagement-to-advance-nutrition-and-public-health-outcomes-visits-senior-special-assistant-to-the-president-on-public-health/",
     body: [
       "APIN's federal engagement on nutrition and public health focused on government leadership, stronger coordination between partners and the use of data to improve health outcomes.",
       "The engagement reflects APIN's wider approach of combining technical implementation with policy and institutional collaboration."
