@@ -141,6 +141,62 @@ export const teamMembers: ContentItem[] = [
     excerpt: "Director, Non-Communicable Diseases and New Business Development.",
     category: "Leadership",
   },
+  {
+    slug: "eke-ofuche",
+    title: "Eke Ofuche",
+    excerpt: "Director, Laboratory & Health Systems Strengthening, providing strategic leadership for laboratory systems, quality management and molecular diagnostics.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "femi-owolagba",
+    title: "Femi Owolagba",
+    excerpt: "Assistant Director, General Laboratory Sciences, supporting laboratory operations, quality systems and workforce capacity.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "chukwuemeka-ibilibor",
+    title: "Dr. Chukwuemeka Ibilibor",
+    excerpt: "Associate Director, Health Systems Strengthening, leading planning, implementation and monitoring of health-system strengthening activities.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "uche-okezie",
+    title: "Pharm. Uche Okezie",
+    excerpt: "Director, Strategic Information, leading health informatics and monitoring and evaluation strategy across APIN project locations.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "luke-onu",
+    title: "Luke Onu",
+    excerpt: "Associate Director, Human Resources & Administration, leading organisational HR strategy and administrative operations.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "plang-jwanle",
+    title: "Dr. Plang Jwanle",
+    excerpt: "Director, Continuum of Care, providing technical guidance for clinical services, antiretroviral therapy and TB/HIV care.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "joshua-apake",
+    title: "Mr. Joshua Adi Apake",
+    excerpt: "Associate Director, Finance, overseeing finance and accounting functions across APIN headquarters and regional offices.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
+  {
+    slug: "kamarudeen-ismaila",
+    title: "Mr. Kamarudeen Ismaila",
+    excerpt: "Associate Director, Grants Management, supporting APIN's grant stewardship and compliance systems.",
+    category: "Leadership",
+    sourceUrl: "https://apin.org.ng/our-team/",
+  },
 ];
 
 export const successStories: ContentItem[] = [
