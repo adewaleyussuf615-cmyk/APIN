@@ -28,7 +28,7 @@ const aboutSections = [
   ["Our team", "People who make public health systems stronger.", "Management team\nProf. Prosper Okonkwo - pioneer CEO since 2007; Professor of Infectious Disease Epidemiology at Bingham University.\n\nMr. Niyi Olaofin - Deputy CEO, Shared Services.\n\nDr Jay Osi Samuels - Deputy CEO, Programs.\n\nPharm. Oluremi (Remi) Olaitan - Director, Special Services.\n\nDr Ifeyinwa (Ify) Onwuatuelo - Coordinating Director.\n\nDr. Olabanjo Okunlola Ogunsola - Director, Non-Communicable Diseases and New Business Development.\n\nOther directors and associate directors lead laboratory and health systems strengthening, strategic information, HR, finance, grants, prevention, care, procurement, community services, IT and internal audit."],
 ] as const;
 
-export function generateStaticParams() { return Object.keys(sections).map((slug) => ({ slug })); }
+const dedicatedRoutes = new Set(["our-team", "knowledge", "careers", "success-stories"]);\n\nexport function generateStaticParams() { return Object.keys(sections).filter((slug) => !dedicatedRoutes.has(slug)).map((slug) => ({ slug })); }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const section = sections[params.slug];
