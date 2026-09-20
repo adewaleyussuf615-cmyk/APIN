@@ -36,7 +36,7 @@ function Header() {
           {navItems.map(([label, href]) => <a href={href} key={href}>{label}<ChevronDown size={13} strokeWidth={1.8} /></a>)}
         </nav>
         <div className="header-actions">
-          <a className="search-link" href="/publications"><Search size={18} /><span>Search</span></a>
+          <a className="search-link" href="/search"><Search size={18} /><span>Search</span></a>
           <a className="contact-button" href="/contact">Partner with APIN <ArrowUpRight size={16} /></a>
           <button
             className="menu-button"
