@@ -307,3 +307,12 @@ a { color: inherit; text-decoration: none; }
   .site-search-wrap { padding-top: 45px; }
   .search-result { gap: 16px; }
 }
+
+.detail-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 34px;
+}
+.detail-actions .underlined-link { margin-top: 0; }
