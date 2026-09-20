@@ -1,0 +1,6 @@
+import StandardPage from "@/components/StandardPage";
+export const metadata = { title: "Our Story", description: "Key milestones in APIN's institutional journey." };
+const milestones=[["2000","Early HIV/AIDS research and prevention work in Nigeria begins."],["2004","Large-scale HIV/AIDS prevention, care and treatment implementation expands through major programme support."],["2007","APIN becomes an independent Nigerian NGO focused on local capacity and sustainability."],["2008","APIN begins operating as an independent grantee."],["2018","The organisation rebrands from AIDS Prevention Initiative in Nigeria to APIN Public Health Initiatives."],["Today","APIN works across public-health programmes, health systems, laboratories, data, research and institutional strengthening."]];
+export default function Page(){ return <StandardPage eyebrow="Our story" title="Built for public health. Built to last." intro="APIN's evolution reflects a shift from project implementation to durable Nigerian public-health institution building." links={[["About APIN","/about"],["Mission & values","/mission-vision-values"],["Our team","/team"]]}>
+  <div className="timeline-list">{milestones.map(([y,t])=><article key={y}><strong>{y}</strong><p>{t}</p></article>)}</div>
+</StandardPage> }
