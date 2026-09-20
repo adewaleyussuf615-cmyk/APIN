@@ -1,0 +1,3 @@
+import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { galleryItems, getBySlug } from "@/lib/site-data";
+export function generateStaticParams(){ return galleryItems.map(({slug})=>({slug})); }
+export default function Page({params}:{params:{slug:string}}){ const item=getBySlug(galleryItems,params.slug); if(!item) notFound(); return <DetailPage item={item} backHref="/gallery" backLabel="Back to gallery" />; }
