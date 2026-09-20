@@ -6,10 +6,10 @@ import Image from "next/image";
 import { capabilities, impactStats, navItems } from "@/lib/content";
 
 const heroImages = [
-  "/assests/Symposium_2024_2-2.png",
-  "/assests/Symposium_2024_31.png",
-  "/assests/Home-Page-Photo-slide-4.jpg",
-  "/assests/Home-Page-Photo-Slide-3.jpg",
+  "/assets/events/Symposium_2024_2-2.png",
+  "/assets/events/Symposium_2024_31.png",
+  "/assets/home/Home-Page-Photo-slide-4.jpg",
+  "/assets/home/Home-Page-Photo-Slide-3.jpg",
 ];
 
 function Mark() {
@@ -36,7 +36,7 @@ function Header() {
           {navItems.map(([label, href]) => <a href={href} key={href}>{label}<ChevronDown size={13} strokeWidth={1.8} /></a>)}
         </nav>
         <div className="header-actions">
-          <a className="search-link" href="/knowledge"><Search size={18} /><span>Search</span></a>
+          <a className="search-link" href="/publications"><Search size={18} /><span>Search</span></a>
           <a className="contact-button" href="/contact">Partner with APIN <ArrowUpRight size={16} /></a>
           <button
             className="menu-button"
@@ -61,7 +61,7 @@ function Header() {
             {label}<ArrowUpRight size={17} />
           </a>
         ))}
-        <a href="/knowledge" onClick={() => setMenuOpen(false)}>Knowledge centre<ArrowUpRight size={17} /></a>
+        <a href="/events" onClick={() => setMenuOpen(false)}>Events & symposium<ArrowUpRight size={17} /></a>\n        <a href="/careers" onClick={() => setMenuOpen(false)}>Careers<ArrowUpRight size={17} /></a>
         <a href="/contact" onClick={() => setMenuOpen(false)}>Partner with APIN<ArrowUpRight size={17} /></a>
       </nav>
     </>
@@ -116,7 +116,7 @@ export default function Home() {
 
       <section className="impact-teaser section-wrap"><div className="impact-number">01 <span>/ 03</span></div><div><p className="eyebrow">Our impact</p><h2>Evidence that moves<br /><em>health forward.</em></h2><p className="body-copy">We make the work visible: the results, the lessons and the people behind every number.</p><a className="red-button" href="/impact">Visit the impact hub <ArrowUpRight size={17} /></a></div><div className="quote-block"><span className="quote-mark">“</span><blockquote>We are not just delivering projects. We are building the capacity to deliver health for generations.</blockquote><cite>— APIN Public Health Initiatives</cite></div></section>
 
-      <section className="knowledge-strip"><div className="section-wrap knowledge-layout"><div><p className="eyebrow">From the knowledge centre</p><h2>Ideas into<br /><em>action.</em></h2></div><article className="featured-resource"><span className="resource-type">Featured resource</span><h3>Explore APIN research, reports, publications and implementation lessons.</h3><a className="underlined-link" href="/knowledge">Browse the knowledge centre <ArrowUpRight size={16} /></a></article></div></section>
+      <section className="knowledge-strip"><div className="section-wrap knowledge-layout"><div><p className="eyebrow">From the knowledge centre</p><h2>Ideas into<br /><em>action.</em></h2></div><article className="featured-resource"><span className="resource-type">Featured resource</span><h3>Explore APIN research, reports, publications and implementation lessons.</h3><a className="underlined-link" href="/publications">Browse the knowledge centre <ArrowUpRight size={16} /></a></article></div></section>
 
       <footer className="site-footer"><div className="footer-top"><a className="brand footer-brand" href="/"><Mark /></a><div><p className="footer-label">Stay connected</p><p className="footer-copy">Updates on the work shaping a healthier Nigeria.</p></div><a className="red-button" href="/contact">Contact APIN <ArrowUpRight size={17} /></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} APIN Public Health Initiatives</span><span>Abuja · Lagos · Across Nigeria</span><a href="/accountability">Accountability & governance <ArrowUpRight size={14} /></a></div></footer>
     </main>
