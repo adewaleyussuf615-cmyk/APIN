@@ -237,18 +237,24 @@ export const careers: ContentItem[] = [
     excerpt: "Explore current opportunities across programmes, clinical services, laboratories, strategic information, operations and support functions.",
     category: "Careers",
     image: "/APIN-Public-Health-Initiative-Recruitment.webp",
+    sourceUrl: "https://jobapplication.apin.org.ng/application/",
+    body: ["APIN recruits experienced and emerging professionals across public health, programmes, laboratories, finance, administration, information technology and related disciplines.", "Open positions are managed through APIN's recruitment application portal when vacancies are available."],
   },
   {
     slug: "internships",
     title: "Internships",
     excerpt: "Opportunities for early-career professionals to gain practical experience in public health and organisational operations.",
     category: "Careers",
+    sourceUrl: "https://apin.org.ng/internships-2/",
+    body: ["The APIN Internship Programme is designed to help graduates transfer classroom knowledge into practical organisational experience under the guidance of experienced professionals.", "Internship and NYSC placements are subject to availability."],
   },
   {
     slug: "volunteers",
     title: "Volunteer Opportunities",
     excerpt: "Contribute time and expertise to mission-aligned public-health initiatives when suitable opportunities are available.",
     category: "Careers",
+    sourceUrl: "https://apin.org.ng/volunteers/",
+    body: ["The APIN Volunteer Programme provides practical professional skills and field experience through unpaid, ad-hoc opportunities when placements are available.", "Volunteer participation does not guarantee permanent employment. Interested candidates can contact APIN Human Resources for current information."],
   },
 ];
 
