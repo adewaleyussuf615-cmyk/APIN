@@ -22,7 +22,10 @@ export default function DetailPage({ item, backHref, backLabel }: { item: Conten
       </section>
       <section className="detail-body">
         {(item.body?.length ? item.body : [item.excerpt]).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        {item.sourceUrl ? <a className="red-button" href={item.sourceUrl} target="_blank" rel="noreferrer">View original APIN source <ArrowUpRight size={16} /></a> : null}
+        <div className="detail-actions">
+          {item.downloadUrl ? <a className="red-button" href={item.downloadUrl} target="_blank" rel="noreferrer">Download resource <ArrowUpRight size={16} /></a> : null}
+          {item.sourceUrl ? <a className="underlined-link" href={item.sourceUrl} target="_blank" rel="noreferrer">View original APIN source <ArrowUpRight size={16} /></a> : null}
+        </div>
       </section>
       <footer className="inner-footer"><a href={backHref}><ArrowLeft size={16} /> {backLabel}</a><span>APIN Public Health Initiatives</span></footer>
     </main>
