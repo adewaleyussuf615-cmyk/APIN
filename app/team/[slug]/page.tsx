@@ -1,0 +1,3 @@
+import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { getBySlug, teamMembers } from "@/lib/site-data";
+export function generateStaticParams(){ return teamMembers.map(({slug})=>({slug})); }
+export default function Page({params}:{params:{slug:string}}){ const item=getBySlug(teamMembers,params.slug); if(!item) notFound(); return <DetailPage item={item} backHref="/team" backLabel="Back to team" />; }
