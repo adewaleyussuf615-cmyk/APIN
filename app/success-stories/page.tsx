@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { successStories } from "@/lib/site-data";
+export const metadata = { title: "Success Stories", description: "Real stories and programme outcomes from APIN Public Health Initiatives." };
+export default function Page(){ return <CollectionPage eyebrow="Success stories" title="Real stories. Real people. Real change." intro="Stories showing how public-health programmes translate into practical outcomes for people and communities." items={successStories} basePath="/success-stories" />; }
