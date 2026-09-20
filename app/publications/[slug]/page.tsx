@@ -1,3 +1,4 @@
-import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { getBySlug, publications } from "@/lib/site-data";
+import type { Metadata } from "next"; import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { getBySlug, publications } from "@/lib/site-data";
 export function generateStaticParams(){ return publications.map(({slug})=>({slug})); }
+export function generateMetadata({params}:{params:{slug:string}}): Metadata { const item=getBySlug(publications,params.slug); if(!item) return {}; return { title:item.title, description:item.excerpt, openGraph:{ title:item.title, description:item.excerpt, images:item.image?[item.image]:undefined } }; }
 export default function Page({params}:{params:{slug:string}}){ const item=getBySlug(publications,params.slug); if(!item) notFound(); return <DetailPage item={item} backHref="/publications" backLabel="Back to publications" />; }
