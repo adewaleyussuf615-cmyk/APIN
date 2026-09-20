@@ -28,4 +28,5 @@ export const navItems = [
   ["Impact", "/impact"],
   ["Knowledge", "/publications"],
   ["News", "/news"],
+  ["Careers", "/careers"],
 ];
