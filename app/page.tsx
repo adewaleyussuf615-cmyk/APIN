@@ -61,7 +61,8 @@ function Header() {
             {label}<ArrowUpRight size={17} />
           </a>
         ))}
-        <a href="/events" onClick={() => setMenuOpen(false)}>Events & symposium<ArrowUpRight size={17} /></a>\n        <a href="/careers" onClick={() => setMenuOpen(false)}>Careers<ArrowUpRight size={17} /></a>
+        <a href="/events" onClick={() => setMenuOpen(false)}>Events & symposium<ArrowUpRight size={17} /></a>
+        <a href="/careers" onClick={() => setMenuOpen(false)}>Careers<ArrowUpRight size={17} /></a>
         <a href="/contact" onClick={() => setMenuOpen(false)}>Partner with APIN<ArrowUpRight size={17} /></a>
       </nav>
     </>
@@ -118,7 +119,21 @@ export default function Home() {
 
       <section className="knowledge-strip"><div className="section-wrap knowledge-layout"><div><p className="eyebrow">From the knowledge centre</p><h2>Ideas into<br /><em>action.</em></h2></div><article className="featured-resource"><span className="resource-type">Featured resource</span><h3>Explore APIN research, reports, publications and implementation lessons.</h3><a className="underlined-link" href="/publications">Browse the knowledge centre <ArrowUpRight size={16} /></a></article></div></section>
 
-      <footer className="site-footer"><div className="footer-top"><a className="brand footer-brand" href="/"><Mark /></a><div><p className="footer-label">Stay connected</p><p className="footer-copy">Updates on the work shaping a healthier Nigeria.</p></div><a className="red-button" href="/contact">Contact APIN <ArrowUpRight size={17} /></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} APIN Public Health Initiatives</span><span>Abuja · Lagos · Across Nigeria</span><a href="/accountability">Accountability & governance <ArrowUpRight size={14} /></a></div></footer>
+      <section className="careers-teaser section-wrap">
+        <div>
+          <p className="eyebrow">Careers at APIN</p>
+          <h2>Do work that<br /><em>improves health.</em></h2>
+        </div>
+        <div>
+          <p className="body-copy">Join multidisciplinary teams working across programmes, laboratories, data, research, operations and community health.</p>
+          <div className="career-links">
+            <a className="red-button" href="/careers">Explore careers <ArrowUpRight size={17} /></a>
+            <a className="underlined-link" href="/careers/internships">Internships <ArrowUpRight size={16} /></a>
+          </div>
+        </div>
+      </section>
+
+      <footer className="site-footer"><div className="footer-top"><a className="brand footer-brand" href="/"><Mark /></a><div><p className="footer-label">Stay connected</p><p className="footer-copy">Updates on the work shaping a healthier Nigeria.</p></div><a className="red-button" href="/contact">Contact APIN <ArrowUpRight size={17} /></a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} APIN Public Health Initiatives</span><span>Abuja · Lagos · Across Nigeria</span><div className="footer-links"><a href="/careers">Careers</a><a href="/gallery">Gallery</a><a href="/events">Events</a><a href="/accountability">Accountability & governance <ArrowUpRight size={14} /></a></div></div></footer>
     </main>
   );
 }
