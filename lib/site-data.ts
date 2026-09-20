@@ -6,6 +6,7 @@ export type ContentItem = {
   category?: string;
   image?: string;
   sourceUrl?: string;
+  downloadUrl?: string;
   body?: string[];
   meta?: string[];
 };
@@ -101,6 +102,11 @@ export const publications: ContentItem[] = [
     date: "January 11, 2014",
     category: "Training manual",
     sourceUrl: "https://apin.org.ng/publications/",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2023/07/PreviewClinicalPharmacyTrainingManualHIVMedicine10Oct14.pdf",
+    body: [
+      "The Clinical Pharmacy Training Manual for HIV Medicine is a practical training resource developed by APIN in collaboration with Northwestern University Center for Global Health.",
+      "The manual was released in January 2014 and was designed to strengthen pharmacy practice and HIV medicine training."
+    ],
   },
 ];
 
@@ -110,92 +116,140 @@ export const teamMembers: ContentItem[] = [
     title: "Prof. Prosper Okonkwo",
     excerpt: "Pioneer Chief Executive Officer since 2007 and Professor of Infectious Disease Epidemiology at Bingham University.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/Dr_Prosper_Okonkwo.jpg",
+    sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Prof. Prosper Okonkwo is the pioneer Chief Executive Officer of APIN Public Health Initiatives and has served as CEO since 2007, after joining the organisation in 2004.","He provides strategic leadership, works closely with APIN's board and partners, and has decades of experience spanning epidemiology, public-health policy, research and programme management."],
+
   },
   {
     slug: "niyi-olaofin",
     title: "Mr. Niyi Olaofin",
     excerpt: "Deputy Chief Executive Officer, Shared Services.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/niyi_olaofin.jpg",
+    sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Mr. Niyi Olaofin is APIN's Deputy Chief Executive Officer, Shared Services.","A chartered accountant and administrator, he brings extensive experience across finance, audit, procurement, budgeting, reporting and organisational systems."],
+
   },
   {
     slug: "jay-osi-samuels",
     title: "Dr. Jay Osi Samuels",
     excerpt: "Deputy Chief Executive Officer, Programs.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/Jay_Osi_Samuels.jpg",
+    sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Dr. Jay Osi Samuels joined APIN in 2006 and serves as Deputy Chief Executive Officer, Programs.","He provides leadership across APIN's programme directorates and oversees programme strategy, project implementation and new-business development."],
+
   },
   {
     slug: "oluremi-olaitan",
     title: "Pharm. Oluremi (Remi) Olaitan",
     excerpt: "Director, Special Services.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/remi_olaitan.jpg",
+    sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Pharm. Oluremi Olaitan is Director, Special Services and joined APIN in 2005.","She leads special projects and supports logistics and supply-chain management, drawing on decades of experience in public health, pharmacovigilance and programme management."],
+
   },
   {
     slug: "ifeyinwa-onwuatuelo",
     title: "Dr. Ifeyinwa (Ify) Onwuatuelo",
     excerpt: "Coordinating Director.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/drify.png",
+    sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Dr. Ifeyinwa Onwuatuelo is APIN's Coordinating Director and joined the organisation in 2009.","She coordinates programme implementation across prevention, community and clinical areas and provides strategic leadership toward programme objectives."],
+
   },
   {
     slug: "olabanjo-ogunsola",
     title: "Dr. Olabanjo Okunlola Ogunsola",
     excerpt: "Director, Non-Communicable Diseases and New Business Development.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/Dr_Olabanjo_Ogunshola.jpg",
+    sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Dr. Olabanjo Ogunsola is Director, Non-Communicable Diseases and New Business Development.","He provides technical leadership across prevention and community services, including PMTCT, OVC and cervical-cancer screening programmes."],
+
   },
   {
     slug: "eke-ofuche",
     title: "Eke Ofuche",
     excerpt: "Director, Laboratory & Health Systems Strengthening, providing strategic leadership for laboratory systems, quality management and molecular diagnostics.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/eke_ofuche.jpg",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Eke Ofuche is Director, Laboratory & Health Systems Strengthening and joined APIN in 2009.","He provides strategic leadership for laboratory services, quality-management systems, molecular diagnostics and health-systems strengthening."],
+
   },
   {
     slug: "femi-owolagba",
     title: "Femi Owolagba",
     excerpt: "Assistant Director, General Laboratory Sciences, supporting laboratory operations, quality systems and workforce capacity.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/Femi_Owolagba.jpg",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Femi Emmanuel Owolagba is Assistant Director, General Laboratory Sciences.","He coordinates laboratory operations and supports programme planning, workforce capacity building, quality systems, sample referral and equipment management."],
+
   },
   {
     slug: "chukwuemeka-ibilibor",
     title: "Dr. Chukwuemeka Ibilibor",
     excerpt: "Associate Director, Health Systems Strengthening, leading planning, implementation and monitoring of health-system strengthening activities.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/Chukwuemeka_Ibilibor.png",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Dr. Chukwuemeka Ibilibor is Associate Director, Health Systems Strengthening.","He leads planning, implementation and monitoring of activities that strengthen health workers, infrastructure, information systems, medicines, policy and financing."],
+
   },
   {
     slug: "uche-okezie",
     title: "Pharm. Uche Okezie",
     excerpt: "Director, Strategic Information, leading health informatics and monitoring and evaluation strategy across APIN project locations.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/uche_okezie.jpg",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Pharm. Uche Michael Okezie is Director, Strategic Information.","He leads strategy across Health Informatics and Monitoring & Evaluation, supporting data systems, performance measurement, accountability and programme improvement."],
+
   },
   {
     slug: "luke-onu",
     title: "Luke Onu",
     excerpt: "Associate Director, Human Resources & Administration, leading organisational HR strategy and administrative operations.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/luke_onu.jpg",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Luke Ejembi Onu is Associate Director, Human Resources & Administration.","He leads HR and administrative strategy, including recruitment, retention, performance management and organisation-wide people policies."],
+
   },
   {
     slug: "plang-jwanle",
     title: "Dr. Plang Jwanle",
     excerpt: "Director, Continuum of Care, providing technical guidance for clinical services, antiretroviral therapy and TB/HIV care.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/plang_jwanle.jpg",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Dr. Plang Humphrey Jwanle is Director, Continuum of Care.","He provides technical guidance for clinical services and supports innovation in antiretroviral therapy and TB/HIV care."],
+
   },
   {
     slug: "joshua-apake",
     title: "Mr. Joshua Adi Apake",
     excerpt: "Associate Director, Finance, overseeing finance and accounting functions across APIN headquarters and regional offices.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/josh.png",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Mr. Joshua Adi Apake is Associate Director, Finance and joined APIN in 2007.","He oversees finance and accounting across APIN offices, donor financial reporting, operational planning and financial decision support."],
+
   },
   {
     slug: "kamarudeen-ismaila",
     title: "Mr. Kamarudeen Ismaila",
     excerpt: "Associate Director, Grants Management, supporting APIN's grant stewardship and compliance systems.",
     category: "Leadership",
+    image: "https://apin.org.ng/wp-content/uploads/2022/03/kismaila.png",
     sourceUrl: "https://apin.org.ng/our-team/",
+    body: ["Mr. Kamarudeen Ismaila is Associate Director, Grants Management.","He leads APIN's grants-management cycle from pre-award through post-award, supporting donor compliance, sub-recipient management and budget accountability."],
+
   },
 ];
 
