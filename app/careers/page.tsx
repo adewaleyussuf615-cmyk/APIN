@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { careers } from "@/lib/site-data";
+export const metadata = { title: "Careers", description: "Career, internship and volunteer opportunities at APIN Public Health Initiatives." };
+export default function Page(){ return <CollectionPage eyebrow="Careers" title="Build a career around better health." intro="Explore vacancies, internships and ways to contribute to APIN's mission." items={careers} basePath="/careers" />; }
