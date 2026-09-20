@@ -23,7 +23,9 @@ export const capabilities = [
 ];
 
 export const navItems = [
-  ["About APIN", "/about"],
-  ["Where we work", "/where-we-work"],
-  ["HIV/AIDS", "/hiv-aids"],
+  ["About", "/about"],
+  ["Our Work", "/expertise"],
+  ["Impact", "/impact"],
+  ["Knowledge", "/publications"],
+  ["News", "/news"],
 ];
