@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { publications } from "@/lib/site-data";
+export const metadata = { title: "Publications", description: "Research, reports and technical resources from APIN Public Health Initiatives." };
+export default function Page(){ return <CollectionPage eyebrow="Knowledge centre" title="Evidence for better decisions." intro="A growing collection of APIN research, training resources and implementation evidence." items={publications} basePath="/publications" />; }
