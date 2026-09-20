@@ -18,7 +18,12 @@ export const newsItems: ContentItem[] = [
     excerpt: "APIN marked its Silver Jubilee with outreach activities focused on service, compassion and stronger communities across project states.",
     date: "June 5, 2026",
     category: "APIN @ 25",
-    sourceUrl: "https://apin.org.ng/news/",
+    sourceUrl: "https://apin.org.ng/apin-25-acts-of-kindness-that-touched-lives-across-project-states/",
+    body: [
+      "APIN marked its Silver Jubilee with practical acts of service across project states, extending the anniversary beyond commemorative events into community outreach.",
+      "Staff teams supported schools, orphanages, correctional centres, marketplaces, internally displaced communities and other vulnerable groups with health screenings, education, food and essential supplies.",
+      "The initiative reflected APIN's emphasis on service, partnership and community connection as part of its public-health mission."
+    ],
   },
   {
     slug: "catalyst-of-wellness-book-launch",
@@ -26,7 +31,12 @@ export const newsItems: ContentItem[] = [
     excerpt: "A commemorative publication documenting APIN’s milestones, partnerships, innovations and achievements over 25 years.",
     date: "June 4, 2026",
     category: "APIN @ 25",
-    sourceUrl: "https://apin.org.ng/news/",
+    sourceUrl: "https://apin.org.ng/catalyst-of-wellness-book-launch-preserving-apins-25-year-legacy-for-future-generations-a-legacy-in-print/",
+    body: [
+      "APIN launched Catalyst of Wellness as a commemorative publication documenting the organisation's 25-year journey, including milestones, partnerships, innovations and public-health achievements.",
+      "The book brings together written and visual stories intended to preserve institutional memory and recognise the people and organisations that contributed to APIN's growth.",
+      "The launch formed part of APIN's Silver Jubilee programme and highlighted the importance of preserving the organisation's history for future public-health leaders."
+    ],
   },
   {
     slug: "25th-anniversary-gala",
@@ -34,7 +44,12 @@ export const newsItems: ContentItem[] = [
     excerpt: "A celebration recognising staff, partners and stakeholders whose work has shaped APIN’s public-health journey.",
     date: "June 4, 2026",
     category: "APIN @ 25",
-    sourceUrl: "https://apin.org.ng/news/",
+    sourceUrl: "https://apin.org.ng/celebrating-excellence-apins-25th-anniversary-gala-and-award-night/",
+    body: [
+      "APIN's 25th anniversary Gala and Award Night recognised staff, facilities, implementation partners and other contributors to the organisation's public-health work.",
+      "The programme included recognition of long-serving staff and partners whose work has supported service delivery and health outcomes over the organisation's first 25 years.",
+      "A time-capsule ceremony preserved memorabilia from the anniversary period for future APIN staff and leaders, symbolising continuity and institutional legacy."
+    ],
   },
   {
     slug: "25-years-of-impact",
@@ -42,7 +57,12 @@ export const newsItems: ContentItem[] = [
     excerpt: "APIN convened a commemorative symposium to reflect on 25 years of advancing public health and strengthening health systems.",
     date: "June 3, 2026",
     category: "Milestone",
-    sourceUrl: "https://apin.org.ng/news/",
+    sourceUrl: "https://apin.org.ng/25-years-of-impact-apin-celebrates-25-years-of-public-health-excellence/",
+    body: [
+      "APIN marked 25 years of public-health work with a commemorative symposium bringing together government representatives, development partners, healthcare professionals, researchers and other stakeholders.",
+      "Discussions reflected on the evolution of public health in Nigeria, the value of long-term partnerships and APIN's contributions to healthcare access, infrastructure and programme innovation.",
+      "The anniversary programme also looked ahead to stronger health systems, wider access to quality care and continued evidence-based collaboration."
+    ],
   },
   {
     slug: "international-womens-day-2026",
@@ -51,6 +71,10 @@ export const newsItems: ContentItem[] = [
     date: "March 9, 2026",
     category: "People",
     sourceUrl: "https://apin.org.ng/news/",
+    body: [
+      "APIN used International Women's Day to recognise women working across laboratories, clinics, communities, programme teams and leadership roles.",
+      "The organisation highlighted women's contributions to health equity, service delivery and public-health leadership."
+    ],
   },
   {
     slug: "federal-engagement-nutrition-public-health",
@@ -59,6 +83,10 @@ export const newsItems: ContentItem[] = [
     date: "February 25, 2026",
     category: "Partnerships",
     sourceUrl: "https://apin.org.ng/news/",
+    body: [
+      "APIN's federal engagement on nutrition and public health focused on government leadership, stronger coordination between partners and the use of data to improve health outcomes.",
+      "The engagement reflects APIN's wider approach of combining technical implementation with policy and institutional collaboration."
+    ],
   },
 ];
 
@@ -277,6 +305,11 @@ export const successStories: ContentItem[] = [
     date: "May 13, 2024",
     category: "HIV prevention",
     sourceUrl: "https://apin.org.ng/apin-hosts-3rd-national-clinical-mentorship-programme-retreat/?page_id=853",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2025/04/Embracing-New-Approaches-to-Preventing-New-HIV-Infections.pdf",
+    body: [
+      "The case study examines community and congregational approaches to PMTCT services designed to help identify pregnant women, link them to testing and care, and reduce new HIV infections among children.",
+      "It documents how APIN and partners worked with community structures to strengthen access to prevention and treatment services."
+    ],
   },
   {
     slug: "food-insecurity-malnutrition-benue",
@@ -285,6 +318,11 @@ export const successStories: ContentItem[] = [
     date: "March 20, 2024",
     category: "Nutrition",
     sourceUrl: "https://apin.org.ng/apin-hosts-3rd-national-clinical-mentorship-programme-retreat/?page_id=853",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2025/04/Ending-Food-Insecurity-and-Malnutrition-in-Benue-State-1.pdf",
+    body: [
+      "APIN and a community-based partner used economic empowerment, farming support and community food-bank approaches to address food insecurity and malnutrition among vulnerable households in Benue State.",
+      "The strategy linked household livelihoods with nutrition support so families could build more sustainable access to food."
+    ],
   },
   {
     slug: "benue-helping-women-thrive",
@@ -292,7 +330,12 @@ export const successStories: ContentItem[] = [
     excerpt: "Community partnerships focused on empowering women, households and local organisations.",
     date: "April 6, 2022",
     category: "Community",
-    sourceUrl: "https://apin.org.ng/apin-hosts-3rd-national-clinical-mentorship-programme-retreat/?page_id=853",
+    sourceUrl: "https://apin.org.ng/?p=1215",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2022/04/Thrive-_Successbenue.pdf",
+    body: [
+      "APIN's work in Benue has included household and community approaches that support women and families affected by HIV to become more economically resilient.",
+      "The programme combines links to HIV services with wider social and economic support delivered through government and community partners."
+    ],
   },
   {
     slug: "oyo-mentor-mother",
@@ -301,6 +344,11 @@ export const successStories: ContentItem[] = [
     date: "April 6, 2022",
     category: "PMTCT",
     sourceUrl: "https://apin.org.ng/apin-hosts-3rd-national-clinical-mentorship-programme-retreat/?page_id=853",
+    downloadUrl: "https://apin.org.ng/wp-content/uploads/2022/04/hivpmtct.pdf",
+    body: [
+      "This story follows a woman living with HIV who became a peer educator and mentor mother within an APIN-supported PMTCT programme in Oyo State.",
+      "Her experience shows how treatment, viral suppression and peer support can help women lead healthy lives while reducing the risk of mother-to-child HIV transmission."
+    ],
   },
 ];
 
