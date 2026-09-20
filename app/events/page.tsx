@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { events } from "@/lib/site-data";
+export const metadata = { title: "Events & Symposium", description: "APIN events and Annual Symposium." };
+export default function Page(){ return <CollectionPage eyebrow="Events" title="Convening ideas that strengthen health systems." intro="Explore APIN's Annual Symposium and other platforms for public-health dialogue, learning and partnership." items={events} basePath="/events" />; }
