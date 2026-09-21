@@ -18,6 +18,7 @@ export const newsItems: ContentItem[] = [
     excerpt: "APIN marked its Silver Jubilee with outreach activities focused on service, compassion and stronger communities across project states.",
     date: "June 5, 2026",
     category: "APIN @ 25",
+    image: "/assets/news/acts-of-kindness.jpg",
     sourceUrl: "https://apin.org.ng/apin-25-acts-of-kindness-that-touched-lives-across-project-states/",
     body: [
       "APIN marked its Silver Jubilee with practical acts of service across project states, extending the anniversary beyond commemorative events into community outreach.",
@@ -31,6 +32,7 @@ export const newsItems: ContentItem[] = [
     excerpt: "A commemorative publication documenting APIN’s milestones, partnerships, innovations and achievements over 25 years.",
     date: "June 4, 2026",
     category: "APIN @ 25",
+    image: "/assets/news/catalyst-of-wellness.png",
     sourceUrl: "https://apin.org.ng/catalyst-of-wellness-book-launch-preserving-apins-25-year-legacy-for-future-generations-a-legacy-in-print/",
     body: [
       "APIN launched Catalyst of Wellness as a commemorative publication documenting the organisation's 25-year journey, including milestones, partnerships, innovations and public-health achievements.",
@@ -44,6 +46,7 @@ export const newsItems: ContentItem[] = [
     excerpt: "A celebration recognising staff, partners and stakeholders whose work has shaped APIN’s public-health journey.",
     date: "June 4, 2026",
     category: "APIN @ 25",
+    image: "/assets/news/25th-anniversary-gala.png",
     sourceUrl: "https://apin.org.ng/celebrating-excellence-apins-25th-anniversary-gala-and-award-night/",
     body: [
       "APIN's 25th anniversary Gala and Award Night recognised staff, facilities, implementation partners and other contributors to the organisation's public-health work.",
@@ -57,6 +60,7 @@ export const newsItems: ContentItem[] = [
     excerpt: "APIN convened a commemorative symposium to reflect on 25 years of advancing public health and strengthening health systems.",
     date: "June 3, 2026",
     category: "Milestone",
+    image: "/assets/news/25-years-impact.jpg",
     sourceUrl: "https://apin.org.ng/25-years-of-impact-apin-celebrates-25-years-of-public-health-excellence/",
     body: [
       "APIN marked 25 years of public-health work with a commemorative symposium bringing together government representatives, development partners, healthcare professionals, researchers and other stakeholders.",
@@ -70,6 +74,7 @@ export const newsItems: ContentItem[] = [
     excerpt: "APIN recognised women across laboratories, clinics, communities and leadership roles who continue to advance health equity.",
     date: "March 9, 2026",
     category: "People",
+    image: "/assets/news/international-womens-day.jpg",
     sourceUrl: "https://apin.org.ng/celebrating-the-women-of-apin-on-international-womens-day/",
     body: [
       "APIN used International Women's Day to recognise women working across laboratories, clinics, communities, programme teams and leadership roles.",
