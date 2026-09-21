@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { newsItems } from "@/lib/site-data";
+export const metadata = { title: "News", description: "Latest news and updates from APIN Public Health Initiatives." };
+export default function Page(){ return <CollectionPage eyebrow="News & updates" title="Public health in motion." intro="Recent announcements, milestones, partnerships and programme updates from APIN." items={newsItems} basePath="/news" />; }

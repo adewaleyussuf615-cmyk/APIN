@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { galleryItems } from "@/lib/site-data";
+export const metadata = { title: "Gallery", description: "APIN programmes, people and events in pictures." };
+export default function Page(){ return <CollectionPage eyebrow="Gallery" title="The work, in pictures." intro="A visual record of APIN programmes, events, people and partnerships." items={galleryItems} basePath="/gallery" />; }

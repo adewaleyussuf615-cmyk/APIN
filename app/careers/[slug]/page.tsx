@@ -1,0 +1,4 @@
+import type { Metadata } from "next"; import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { careers, getBySlug } from "@/lib/site-data";
+export function generateStaticParams(){ return careers.map(({slug})=>({slug})); }
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}): Promise<Metadata> { const {slug}=await params; const item=getBySlug(careers,slug); if(!item) return {}; return { title:item.title, description:item.excerpt, openGraph:{ title:item.title, description:item.excerpt, images:item.image?[item.image]:undefined } }; }
+export default async function Page({params}:{params:Promise<{slug:string}>}){ const {slug}=await params; const item=getBySlug(careers,slug); if(!item) notFound(); return <DetailPage item={item} backHref="/careers" backLabel="Back to careers" />; }

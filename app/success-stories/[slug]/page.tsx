@@ -1,0 +1,4 @@
+import type { Metadata } from "next"; import { notFound } from "next/navigation"; import DetailPage from "@/components/DetailPage"; import { getBySlug, successStories } from "@/lib/site-data";
+export function generateStaticParams(){ return successStories.map(({slug})=>({slug})); }
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}): Promise<Metadata> { const {slug}=await params; const item=getBySlug(successStories,slug); if(!item) return {}; return { title:item.title, description:item.excerpt, openGraph:{ title:item.title, description:item.excerpt, images:item.image?[item.image]:undefined } }; }
+export default async function Page({params}:{params:Promise<{slug:string}>}){ const {slug}=await params; const item=getBySlug(successStories,slug); if(!item) notFound(); return <DetailPage item={item} backHref="/success-stories" backLabel="Back to stories" />; }

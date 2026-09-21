@@ -1,0 +1,3 @@
+import CollectionPage from "@/components/CollectionPage"; import { teamMembers } from "@/lib/site-data";
+export const metadata = { title: "Our Team", description: "Meet APIN Public Health Initiatives leadership." };
+export default function Page(){ return <CollectionPage eyebrow="Our team" title="Leadership rooted in public health." intro="Meet leaders guiding APIN's programmes, operations and institutional growth." items={teamMembers} basePath="/team" />; }
